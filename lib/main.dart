@@ -103,7 +103,7 @@ class _RandomWordsState extends State<RandomWords> {
               tiles: tiles).toList();
           return Scaffold(
             appBar: AppBar(
-              title: Text("Saved suggestions"),
+              title: Text("Saved names"),
             ),
             body: ListView(children: divided,),
           );
